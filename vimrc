@@ -322,7 +322,7 @@ endif
 
 
 "" ctags
-set tags=./tags;~/src
+set tags=./.tags;~
 
 
 " Easier visual indent
