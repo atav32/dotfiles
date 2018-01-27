@@ -52,12 +52,6 @@ eval "$(fasd --init auto)"
 
 
 
-# Increase number of open files
-# ------------------------------------------------------------------------------
-ulimit -n 10000
-
-
-
 # NVM (node version manager)
 # ------------------------------------------------------------------------------
 export NVM_DIR="$HOME/.nvm"

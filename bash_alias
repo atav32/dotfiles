@@ -125,6 +125,12 @@ alias tag='ctags -R -f ./.tags .'
 
 # FZF & search
 # --------------------------------------------------------------------
+alias gethstart='geth --fast --cache=2048 console'
+
+
+
+# FZF & search
+# --------------------------------------------------------------------
 
 # open all files containing query
 vg() {

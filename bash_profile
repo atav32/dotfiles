@@ -37,3 +37,5 @@ export PATH=$COCOS_X_ROOT:$PATH
 # Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
 export COCOS_TEMPLATES_ROOT=/Users/brian/Armory/cocos2d-x-3.13.1/templates
 export PATH=$COCOS_TEMPLATES_ROOT:$PATH
+export PATH="/usr/local/opt/e2fsprogs/bin:$PATH"
+export PATH="/usr/local/opt/e2fsprogs/sbin:$PATH"
