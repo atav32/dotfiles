@@ -24,13 +24,13 @@ call plug#begin('~/.vim/plugged')
 
                                                                  " == General ==
 Plug 'junegunn/seoul256.vim'                                     " Colorscheme
-Plug 'gmarik/vundle'                                             " Install Vundle
+Plug 'gmarik/vundle'                                             " (remove) Install Vundle
 Plug 'bling/vim-airline'                                         " Powerline in Vimscript
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }           " Directory explorer
 Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeToggle' }       " Tabs for nerdtree
 Plug 'scrooloose/syntastic'                                      " Syntax checker
 Plug 'tpope/vim-surround'                                        " Quickly surround words with symbols
-Plug 'tpope/vim-obsession'                                       " Vim sessions
+Plug 'tpope/vim-obsession'                                       " (remove) Vim sessions
 Plug 'christoomey/vim-tmux-navigator'                            " Doh! That's a Tmux split (no longer!)
 Plug 'airblade/vim-gitgutter'                                    " Shows Git diff
 Plug 'flazz/vim-colorschemes'                                    " Nice syntax highlighting
@@ -51,20 +51,24 @@ Plug 'powerline/fonts'                                           " Powerline fon
 Plug 'junegunn/fzf.vim'                                          " FZF plugin for Vim
 Plug 'junegunn/goyo.vim'                                         " Page layout
 Plug 'junegunn/vim-easy-align'                                   " Aligning columns
+Plug 'janko-m/vim-test'                                          " Run tests
+Plug 'tomlion/vim-solidity/'                                     " Solidity syntax
+
                                                                  " == Javascript ==
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }          " Javascript
 Plug 'walm/jshint.vim', { 'for': 'javascript' }                  " I can haz good JS style?
 Plug 'douglascrockford/JSLint', { 'for': 'javascript' }
 Plug 'burnettk/vim-angular', { 'for': 'javascript' }             " Angular
+Plug 'mxw/vim-jsx'                                               " ReactJS
+
                                                                  " == HTML ==
 Plug 'htacg/tidy-html5', { 'do': 'make install', 'for': 'html' } " HTML5 syntax
 Plug 'mattn/emmet-vim', { 'for': 'html' }                        " Expanding HTML abbreviations
                                                                  " == CSS ==
 Plug 'groenewege/vim-less', { 'for': 'less' }                    " syntax highlighting for LESS
-Plug 'ap/vim-css-color', { 'for': 'css' }                        " Highligh CSS colors
+Plug 'ap/vim-css-color'                                          " Highligh CSS colors
 Plug 'craigemery/vim-autotag'                                    " Auto update ctags
 Plug 'wavded/vim-stylus', { 'for': 'styl' }                      " Stylus files
-Plug 'mxw/vim-jsx', { 'for': ['js', 'jsx'] }                     " ReactJS
 
 " Initialize plugin system
 call plug#end()
